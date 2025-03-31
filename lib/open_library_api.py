@@ -45,9 +45,11 @@ class Search:
         return response_formatted
 
 
+# Uncomment these lines to run the first method
 # results = Search().get_search_results()
 # print(results)
 
+# Comment out these lines for now
 # results_json = Search().get_search_results_json()
 # print(json.dumps(results_json, indent=1))
 
